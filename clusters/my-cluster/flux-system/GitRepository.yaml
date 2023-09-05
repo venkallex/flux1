@@ -1,0 +1,10 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: GitRepository
+metadata:
+  name: chart-source
+  namespace: helm-system
+spec:
+  url: 
+  interval: 1h
+  secretRef:
+    name: github-auth
