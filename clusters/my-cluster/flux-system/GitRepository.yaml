@@ -6,5 +6,4 @@ metadata:
 spec:
   url: https://github.com/venkallex/flux1.git
   interval: 1h
-  secretRef:
-    name: github-auth
+
