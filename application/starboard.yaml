@@ -11,8 +11,8 @@ spec:
 apiVersion: helm.toolkit.fluxcd.io/v2beta1
 kind: HelmRelease
 metadata:
-  name: starboard-operator
-  namespace: starboard-system
+  name: starboard
+  namespace: starboard
 spec:
   chart:
     spec:
