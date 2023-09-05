@@ -4,6 +4,6 @@ metadata:
   name: chart-source
   namespace: helm-system
 spec:
-  url: https://github.com/venkallex/flux1.git
+  url: git@github.com:venkallex/flux1.git
   interval: 1m
 
